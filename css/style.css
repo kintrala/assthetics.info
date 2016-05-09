@@ -2,3 +2,22 @@ object, embed {
     width: 100%;
     max-width: 100%;
 }
+html, body {
+  height: 100%;
+}
+
+.wrap {
+  height: 100vh;
+  display: flex;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+}
